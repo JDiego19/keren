@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto - Keren's Style</title>
+</head>
+
+<body>
+    <header>
+        <h1>Ubicación y Precios</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Colección Adidas</a></li>
+                <li><a href="contacto.html">Contacto y Precios</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Lista de Precios Keren's Style</h2>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Producto Adidas</th>
+                        <th>Tallas Disponibles</th>
+                        <th>Precio (S/.)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Jean Skinny</td>
+                        <td>28, 30, 32</td>
+                        <td>120.00</td>
+                    </tr>
+                    <tr>
+                        <td>Casaca Denim</td>
+                        <td>S, M, L</td>
+                        <td>180.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Solicitud de Pedido</h2>
+
+            <form action="#">
+
+                <label for="cliente">Nombre de la Clienta:</label>
+                <input type="text" id="cliente" name="cliente" required> <br><br>
+
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required> <br><br>
+
+                <label for="cantidad">Cantidad:</label>
+                <input type="number" id="cantidad" name="cantidad" min="1"> <br><br>
+
+                <label for="prenda">Selecciona la Prenda:</label>
+                <select id="prenda" name="prenda">
+                    <option value="pantalones">Pantalón de Jean azul</option>
+                    <option value="pantalones">Pantalón de Jean celeste claro</option>
+                    <option value="casacas">Casaca de Jean azul</option>
+                    <option value="casacas">Casaca de Jean celeste</option>
+                </select> <br><br>
+
+                <button type="submit">Enviar Pedido</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Encuéntranos en el Local Adidas.</h2>
+            <h3>Ubicación de la tienda Adidas Brand Center Jockey Plaza. </h3>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.353396657905!2d-76.97864342416954!3d-12.08796854203798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c7efe2366885%3A0x633a68579d472a7!2sAdidas%20Brand%20Center%20Jockey%20Plaza!5e0!3m2!1ses-419!2spe!4v1716300000000!5m2!1ses-419!2spe"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Keren's Style - Todos los derechos reservados</p>
+    </footer>
+</body>
+
+</html>
